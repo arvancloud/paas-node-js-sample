@@ -1,0 +1,22 @@
+{
+  "name": "paas-node-js-sample",
+  "version": "0.0.1",
+  "description": "A sample node.js app using express 4",
+  "engines": {
+    "node": "14.x"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node test.js"
+  },
+  "dependencies": {
+    "ejs": "^3.1.5",
+    "express": "^4.15.2"
+  },
+  "devDependencies": {
+    "got": "^11.3.0",
+    "tape": "^4.7.0"
+  },
+  "license": "MIT"
+}
